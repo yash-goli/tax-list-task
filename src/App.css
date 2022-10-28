@@ -1,0 +1,33 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+button {
+  width: 60px;
+  padding: 8px;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 2px;
+  color: #000;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+button.btn-fav {
+  background-color: #000;
+  color: #fff;
+}
